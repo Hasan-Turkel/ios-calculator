@@ -17,8 +17,7 @@ main{
     flex-direction: column;
     border-radius: 30px ;
     background-color: black;
-    font-size: 2rem;
-    font-weight: 550;
+    
 }
 header{
     width: 20rem;
@@ -43,11 +42,14 @@ div.container{
     background-color: rgb(100, 100, 100);
     color: white;
     cursor: pointer;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 550;
 }
 .content:hover{
     opacity: 70%;
 }
-.div17{
+.button17{
     grid-column: span 2;
     text-align: left;
     padding-left: 1.9rem;
@@ -55,10 +57,10 @@ div.container{
     border-radius: 50px;
  
 }
-.div1, .div2, .div3{
+.button1, .button2, .button3{
     background-color: lightgray;
     color: black;
 }
-.div4, .div8, .div12, .div16{
+.button4, .button8, .button12, .button16{
     background-color: rgb(245, 154, 44);
 }

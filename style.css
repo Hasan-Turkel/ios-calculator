@@ -22,6 +22,21 @@ main{
 header{
     width: 20rem;
     height: 12rem;
+    color: white;
+    text-align: right;
+    display: flex;
+    flex-direction: column;;
+    justify-content: end;
+    padding: 1rem;
+    gap: 1rem;
+    font-size: 2rem;
+    & div{
+        display: flex;
+        justify-content: end;
+        gap: 0.4rem
+    };
+    & p {font-size: smaller;
+    }
 }
 div.container{
     display: grid;

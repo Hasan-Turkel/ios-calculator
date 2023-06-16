@@ -14,7 +14,6 @@ container.addEventListener("click", (e)=>{
 
     if (e.target.classList.contains("num")) {
 
-        h1.innerText == "0" ?  h1.innerText = e.target.innerText :
         h1.innerText += e.target.innerText
         
     }
@@ -30,7 +29,7 @@ container.addEventListener("click", (e)=>{
     }
     else if (e.target.innerText == "%" & h1.innerText != "") {
         h1.innerText = +h1.innerText / 100;
-        pFirst.innerText = ""  
+         
     }
     else if (e.target.innerText == "="){
         calculate()
@@ -63,9 +62,6 @@ switch (pSecond.innerText) {
         break;
     case "÷":
         h1.innerText  = (+pFirst.innerText / +h1.innerText).toFixed(2); 
-        break;
-    case "%":
-        h1.innerText  = +pFirst.innerText / 100; 
         break;
 }
 }
